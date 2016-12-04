@@ -14,6 +14,9 @@ import java.util.GregorianCalendar;
         hireDay = calendar.getTime();
 
     }
+    public Employee(){
+
+    }
 
     public String getName(){
         return  name;
