@@ -6,7 +6,7 @@ import java.util.GregorianCalendar;
 /**
  * Created by User on 23.11.2016.
  */
- class Employee {
+  class Employee {
     public Employee (String n, double s, int year, int month, int day){
         name = n;
         salary = s;
@@ -17,12 +17,15 @@ import java.util.GregorianCalendar;
     public Employee(){
 
     }
+    public Employee(String n, double s){
+        name = n;
+        salary = s;
+    }
 
 
     public String getName(){
         return  name;
     }
-
     public  double getSalary(){
         return salary;
     }

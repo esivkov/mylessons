@@ -17,10 +17,25 @@ public class Manager extends Employee {
         bonus = 0;
     }
 
-    @Override
+
+
+    public Manager (String n, double s){
+        super(n, s);
+        bonus = 0;
+    }
+
+
     public double getSalary() {
         double baseSalary = super.getSalary();
         return  baseSalary + bonus;
+    }
+    private  String a;
+
+
+    public String getName(){
+        String easyName = super.getName();
+        return "mr " + easyName;
+
     }
 
     public  void setBonus (double b){
@@ -29,3 +44,4 @@ public class Manager extends Employee {
 
     private  double bonus;
 }
+
