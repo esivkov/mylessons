@@ -9,6 +9,7 @@ public class ManagerTest {
 
 
     public static void main(String[] args) {
+
         Manager boss = new Manager("Fill", 100000);
         boss.setBonus(5000);
         Employee [] staff = new Employee [3];
